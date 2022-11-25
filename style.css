@@ -1,0 +1,431 @@
+html {
+  font-size: 62.5%;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+nav .logo {
+  width: 17rem;
+}
+
+nav ul li {
+  list-style-type: none;
+  margin: 0 3rem;
+}
+
+.nav-links {
+  display: flex;
+}
+
+.nav-links li a {
+  color: #fff;
+  font-size: 1.7rem;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.btn {
+  background: #4489f0;
+  border-radius: 8px;
+  padding: 1rem 4rem;
+  color: #fff;
+  font-size: 1.7rem;
+  font-weight: 700;
+  border: none;
+  cursor: pointer;
+}
+
+.btn a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.nav-btn button {
+  margin: 0 12px;
+}
+
+.Hero {
+  margin-top: 10rem;
+  text-align: center;
+}
+
+h1 {
+  font-size: 6.5rem;
+  color: #fff;
+  margin: 0;
+  line-height: 8rem;
+}
+
+.nigeria {
+  color: #11e840;
+}
+
+.subtitle {
+  line-height: 3.3rem;
+  color: #ffffff;
+  font-size: 1.9rem;
+  width: 79.4rem;
+  margin: 1.8rem auto;
+}
+
+.hero-btn {
+  margin-top: 4.5rem;
+}
+
+.hero-btn .video {
+  background-color: transparent;
+}
+
+.video-icon {
+  width: 1.8rem;
+  position: relative;
+  top: 0.37rem;
+  right: 0.4rem;
+  font-size: 2.1rem;
+}
+
+.parnters {
+  margin-top: 8rem;
+  text-align: center;
+}
+
+.parnters-title {
+  font-weight: 700;
+  font-size: 4rem;
+}
+
+.parnter-logo {
+  display: flex;
+  justify-content: center;
+}
+
+/* .parnter-logo img {
+  width: 20rem;
+  object-fit: cover;
+  margin: 0 2rem;
+} */
+
+.fair-money {
+  margin: 0 9rem;
+}
+
+.dusk-tour {
+  width: 15rem;
+  margin-top: 1rem;
+}
+
+.choose {
+  margin-top: 7rem;
+  padding: 4rem 0;
+  background-color: #4489f0;
+  text-align: center;
+  padding: 5rem 7rem;
+}
+
+.choose-partner {
+  font-weight: 700;
+  font-size: 4rem;
+  margin: 0;
+}
+
+.benefits {
+  margin-top: 6rem;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.reilable {
+  background-image: url("images/reliable-tour.jpg");
+}
+
+.support {
+  background-image: url("images/support.jpg");
+}
+
+.image-contaner {
+  width: 16rem;
+  height: 16rem;
+  border-radius: 100%;
+  margin: 3rem auto;
+}
+
+.benefit-text {
+  font-size: 2.3rem;
+  line-height: 3.6rem;
+}
+
+.benefit-title {
+  font-size: 3rem;
+  line-height: 4.5rem;
+  margin: 0;
+}
+
+.middle {
+  margin: 0 12rem;
+}
+
+.destination {
+  margin-top: 12rem;
+  padding: 0 7rem;
+}
+
+.destination-title {
+  font-size: 4rem;
+  line-height: 7.5rem;
+  text-align: center;
+}
+
+.destination-list {
+  display: flex;
+  margin-top: 9rem;
+  justify-content: center;
+}
+
+.center {
+  margin: 0 3.2rem;
+}
+
+.destination-event {
+  width: 37.7rem;
+  height: 46rem;
+  background: #c4c4c4;
+  border-radius: 2rem;
+}
+
+.destination-event img {
+  width: 100%;
+  height: 26rem;
+  object-fit: cover;
+  overflow: hidden;
+}
+
+.destination-link img {
+  width: 10rem;
+  object-fit: contain;
+  height: auto;
+}
+
+.destination-event h3 {
+  font-size: 2.4rem;
+  line-height: 113%;
+  margin-bottom: 1.2rem;
+  padding: 0 2rem;
+}
+
+.destination-event p {
+  margin-top: 0;
+  padding: 0 2rem;
+}
+
+.destination-link {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 2rem;
+  padding-right: 4rem;
+  margin-top: 2rem;
+}
+
+.testimonial {
+  margin-top: 15rem;
+  display: flex;
+  justify-content: center;
+  padding: 0 9rem;
+}
+
+.profile-img {
+  height: 48rem;
+}
+
+.testimonial-texts {
+  margin-left: 9rem;
+  width: 59rem;
+}
+
+.testimonial-texts h2 {
+  font-size: 5rem;
+  line-height: 113%;
+  margin-bottom: 0;
+}
+
+.message {
+  font-size: 2rem;
+  line-height: 3.6rem;
+}
+
+.name {
+  font-weight: 700;
+  font-size: 2.1rem;
+  line-height: 3.2rem;
+  margin-bottom: 0;
+}
+
+.role {
+  font-size: 1.8rem;
+  line-height: 2.7rem;
+  margin-top: 0.8rem;
+}
+
+.CTA {
+  margin: 10rem 10rem;
+  padding: 3rem 7rem;
+  margin-top: 10rem;
+  background: #4489f0;
+  border-radius: 3.7rem;
+  display: flex;
+  justify-content: space-between;
+  font-size: 2rem;
+}
+
+.cta-textbox {
+  margin-right: 5rem;
+  width: 52rem;
+}
+
+.cta-textbox h2 {
+  font-weight: 700;
+  font-size: 5rem;
+  line-height: 113%;
+}
+
+.cta-img {
+  height: 45rem;
+}
+
+.CTA-img {
+  width: 100%;
+}
+
+.cta-textbox p {
+  font-size: 2rem;
+  line-height: 3.6rem;
+}
+
+.cta-btn {
+  background-color: #11e840;
+}
+
+.gallery {
+  margin-top: 10rem;
+}
+
+.grid {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+footer {
+  display: flex;
+  margin-top: 13rem;
+  background-color: #4489f0;
+  padding: 5rem 7rem;
+  justify-content: space-evenly;
+}
+
+footer li {
+  list-style: none;
+}
+
+.brand p {
+  width: 30rem;
+  font-size: 1.9rem;
+  margin-top: 1.5rem;
+}
+
+.logo-footer {
+  width: 17rem;
+}
+
+footer h3 {
+  font-size: 2.5rem;
+  line-height: 2.9rem;
+}
+
+footer a {
+  font-size: 2.2rem;
+  line-height: 4.3rem;
+  color: #000;
+}
+
+.footer-links {
+  position: relative;
+  right: 4rem;
+}
+
+.copyright {
+  font-weight: 700;
+  font-size: 2.2rem;
+  line-height: 2.6rem;
+}
+
+@media screen and (max-width: 1024px) {
+  header {
+    padding: 4rem 4rem;
+    height: 100vh;
+  }
+
+  .destination {
+    padding: 0 4rem;
+  }
+
+  .gallery {
+    max-width: 15rem;
+    margin: 8rem auto;
+  }
+
+  .benefit-text {
+    font-size: 2rem;
+  }
+
+  .benefit-title {
+    font-size: 2.5rem;
+  }
+
+  .destination-event button {
+    font-size: 1.4rem;
+    padding: 1rem 2.3rem;
+  }
+
+  .testimonial-texts h2 {
+    font-size: 3.6rem;
+  }
+
+  .message,
+  .name,
+  .role {
+    font-size: 1.7rem;
+  }
+
+  .CTA {
+    margin: 10rem 6rem;
+    padding: 5rem 4rem;
+    padding-bottom: 0;
+  }
+
+  .cta-textbox h2 {
+    font-size: 4rem;
+  }
+
+  .cta-textbox p {
+    font-size: 1.8rem;
+  }
+
+  footer {
+    padding: 5rem 4rem;
+  }
+}

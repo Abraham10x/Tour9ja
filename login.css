@@ -1,0 +1,126 @@
+html {
+  font-size: 62.5%;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+nav .logo {
+  width: 17rem;
+}
+
+nav ul li {
+  list-style-type: none;
+  margin: 0 3rem;
+}
+
+.nav-links {
+  display: flex;
+}
+
+.nav-links li a {
+  color: #000;
+  font-size: 1.7rem;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.btn {
+  background: #4489f0;
+  border-radius: 8px;
+  padding: 1rem 4rem;
+  color: #fff;
+  font-size: 1.7rem;
+  font-weight: 700;
+  border: none;
+  cursor: pointer;
+}
+
+.nav-btn button {
+  margin: 0 12px;
+}
+
+.btn a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.form-element {
+  margin-top: 12rem;
+  margin-left: 5rem;
+}
+
+.form-element h1 {
+  font-size: 5.5rem;
+  line-height: 122%;
+  margin-bottom: 1.4rem;
+}
+
+.subtle {
+  font-size: 2.2rem;
+  line-height: 3.3rem;
+  margin-top: 0;
+}
+
+form label {
+  display: block;
+  font-weight: 700;
+  font-size: 1.9rem;
+  line-height: 3.2rem;
+  margin-bottom: 1rem;
+  margin-top: 2rem;
+}
+
+form input {
+  width: 41.4rem;
+  border-radius: 6px;
+  outline: 2px solid gray;
+  border: none;
+  font-size: 2rem;
+  padding: 1.2rem 2.2rem;
+}
+
+.form-select {
+  width: 41.4rem;
+  border-radius: 6px;
+  outline: 2px solid gray;
+  border: none;
+  font-size: 2rem;
+  padding: 1.2rem 2.2rem;
+}
+
+.form-buttons {
+  margin-top: 3rem;
+}
+
+.account {
+  background-color: transparent;
+  border: 2px solid #4489f0;
+  color: #000000;
+  padding: 0.8rem 2.3rem;
+  margin-left: 11rem;
+  text-decoration: none;
+}
+
+.terms {
+  font-size: 1.7rem;
+  line-height: 3.3rem;
+
+  color: rgba(0, 0, 0, 0.63);
+  width: 50rem;
+  margin-top: 5rem;
+}

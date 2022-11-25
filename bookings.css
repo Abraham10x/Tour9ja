@@ -1,0 +1,183 @@
+html {
+  font-size: 62.5%;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+nav .logo {
+  width: 17rem;
+}
+
+nav ul li {
+  list-style-type: none;
+  margin: 0 3rem;
+}
+
+.nav-links {
+  display: flex;
+}
+
+.nav-links li a {
+  color: #fff;
+  font-size: 1.7rem;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.btn {
+  background: #4489f0;
+  border-radius: 8px;
+  padding: 1rem 4rem;
+  color: #fff;
+  font-size: 1.7rem;
+  font-weight: 700;
+  border: none;
+  cursor: pointer;
+}
+
+.btn a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.nav-btn button {
+  margin: 0 12px;
+}
+
+h1 {
+  font-size: 6.5rem;
+  color: #fff;
+  margin: 0;
+  width: 90rem;
+  margin: auto auto;
+  margin-top: 6rem;
+  line-height: 8rem;
+}
+
+.bookings {
+  padding: 5rem 7rem;
+}
+
+.header-span {
+  margin-left: 7rem;
+}
+
+h2 {
+  font-size: 5.5rem;
+  line-height: 122%;
+}
+
+.placement {
+  margin-top: 10rem;
+  display: flex;
+}
+
+.bookings-info {
+  margin-left: 6rem;
+}
+
+.rating {
+  display: flex;
+}
+
+.price {
+  display: flex;
+  margin-top: 1rem;
+}
+
+.rating p {
+  color: #fb4910;
+  font-weight: 700;
+  position: relative;
+  top: 1.3rem;
+  left: 3rem;
+}
+
+.price .cost {
+  color: #11e840;
+  font-weight: 700;
+  margin-right: 3rem;
+  font-size: 2.8rem;
+}
+
+.location img {
+  width: 2.5rem;
+  margin-right: 2rem;
+}
+
+.bookings-info h3 {
+  font-size: 40px;
+  line-height: 113%;
+  margin-bottom: 1.5rem;
+}
+
+.bookings-info p {
+  font-size: 2.4rem;
+  line-height: 3.6rem;
+  margin-top: 0rem;
+}
+
+footer {
+  display: flex;
+  margin-top: 13rem;
+  background-color: #4489f0;
+  padding: 5rem 7rem;
+  justify-content: space-evenly;
+}
+
+footer li {
+  list-style: none;
+}
+
+.brand p {
+  width: 30rem;
+  font-size: 1.9rem;
+  margin-top: 1.5rem;
+}
+
+.logo-footer {
+  width: 17rem;
+}
+
+footer h3 {
+  font-size: 2.5rem;
+  line-height: 2.9rem;
+}
+
+footer a {
+  font-size: 2.2rem;
+  line-height: 4.3rem;
+  color: #000;
+}
+
+.footer-links {
+  position: relative;
+  right: 4rem;
+}
+
+.copyright {
+  font-weight: 700;
+  font-size: 2.2rem;
+  line-height: 2.6rem;
+}
+
+@media screen and (max-width: 1024px) {
+  footer {
+    padding: 5rem 4rem;
+  }
+}

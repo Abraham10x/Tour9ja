@@ -1,0 +1,306 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+nav .logo {
+  width: 17rem;
+}
+
+nav ul li {
+  list-style-type: none;
+  margin: 0 3rem;
+}
+
+.nav-links {
+  display: flex;
+}
+
+.nav-links li a {
+  color: #fff;
+  font-size: 1.7rem;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.btn {
+  background: #4489f0;
+  border-radius: 8px;
+  padding: 1rem 4rem;
+  color: #fff;
+  font-size: 1.7rem;
+  font-weight: 700;
+  border: none;
+  cursor: pointer;
+}
+
+.btn a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.nav-btn button {
+  margin: 0 12px;
+}
+
+h1 {
+  font-size: 6.5rem;
+  color: #fff;
+  margin: 0;
+  width: 90rem;
+  margin: auto auto;
+  margin-top: 6rem;
+  line-height: 8rem;
+}
+
+.bookings {
+  padding: 5rem 7rem;
+}
+
+.header-span {
+  margin-left: 7rem;
+}
+
+h2 {
+  font-size: 5.5rem;
+  line-height: 122%;
+}
+
+.placement {
+  margin-top: 10rem;
+  display: flex;
+}
+
+.bookings-info {
+  margin-left: 6rem;
+}
+
+.rating {
+  display: flex;
+}
+
+.price {
+  display: flex;
+  margin-top: 1rem;
+}
+
+.rating p {
+  color: #fb4910;
+  font-weight: 700;
+  position: relative;
+  top: 1.3rem;
+  left: 3rem;
+}
+
+.price .cost {
+  color: #11e840;
+  font-weight: 700;
+  margin-right: 3rem;
+  font-size: 2.8rem;
+}
+
+.location img {
+  width: 2.5rem;
+  margin-right: 2rem;
+}
+
+.bookings-info h3 {
+  font-size: 40px;
+  line-height: 113%;
+  margin-bottom: 1.5rem;
+}
+
+.bookings-info p {
+  font-size: 2.4rem;
+  line-height: 3.6rem;
+  margin-top: 0rem;
+}
+
+footer {
+  display: flex;
+  margin-top: 13rem;
+  background-color: #4489f0;
+  padding: 5rem 7rem;
+  justify-content: space-evenly;
+}
+
+footer li {
+  list-style: none;
+}
+
+.brand p {
+  width: 30rem;
+  font-size: 1.9rem;
+  margin-top: 1.5rem;
+}
+
+.logo-footer {
+  width: 17rem;
+}
+
+footer h3 {
+  font-size: 2.5rem;
+  line-height: 2.9rem;
+}
+
+footer a {
+  font-size: 2.2rem;
+  line-height: 4.3rem;
+  color: #000;
+}
+
+/* .footer-links {
+  position: relative;
+  right: 4rem;
+} */
+
+.copyright {
+  font-weight: 700;
+  font-size: 2.2rem;
+  line-height: 2.6rem;
+}
+
+@media screen and (max-width: 1024px) {
+  footer {
+    padding: 5rem 4rem;
+  }
+}
+
+/* body {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: #00b894;
+} */
+
+.wrapper {
+  padding: 20px;
+  background: #fff;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+  width: 600px;
+  min-height: 400px;
+  margin: 8rem auto;
+}
+
+.wrapper .row {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+}
+
+.wrapper .form .row .input-group {
+  padding: 0 10px;
+  display: block;
+}
+
+.wrapper .form .row .input-group:first-child {
+  padding-left: 0;
+}
+
+.wrapper .form .row .input-group:last-child {
+  padding-right: 0;
+}
+
+.wrapper .form .input-group {
+  width: 100%;
+  height: 50px;
+  margin-bottom: 50px;
+}
+
+.wrapper .form .input-group label {
+  font-weight: 600;
+  margin-bottom: 5px;
+  display: block;
+}
+
+.wrapper .form .input-group .btn {
+  margin: 20px 0;
+  display: block;
+  padding: 0.7rem 2rem;
+  opacity: 0.8;
+  color: #fff;
+  background: #00b894;
+  border: none;
+  outline: none;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: 0.3s ease-in;
+}
+
+.wrapper .form .input-group .btn:hover {
+  opacity: 1;
+}
+
+.wrapper .form .input-group input,
+.wrapper .form .input-group textarea {
+  width: 100%;
+  height: 100%;
+  border: 1px solid #00b894;
+  outline: none;
+  padding: 5px 10px;
+}
+
+.wrapper .form .input-group.textarea {
+  height: 200px;
+}
+
+.wrapper .form .input-group.textarea textarea {
+  resize: none;
+}
+
+.wrapper .prev-comments {
+  margin-top: 50px;
+}
+
+.wrapper .prev-comments .single-item {
+  background: #fff;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  padding: 10px 20px;
+  text-align: left;
+  margin-bottom: 25px;
+}
+
+.wrapper .prev-comments .single-item h4 {
+  font-size: 1.3rem;
+  font-weight: 800;
+  color: #111;
+}
+
+.wrapper .prev-comments .single-item a {
+  margin: 10px 0;
+  font-size: 1rem;
+  color: #111;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.wrapper .prev-comments .single-item p {
+  font-size: 0.9rem;
+  color: #111;
+}
